@@ -1,0 +1,41 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.6",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@strapi/plugin-i18n": "4.5.6",
+    "@strapi/plugin-users-permissions": "4.5.6",
+    "@strapi/strapi": "4.5.6",
+    "better-sqlite3": "7.4.6",
+    "dotenv": "^16.0.3",
+    "formik": "^2.2.9",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.7.0",
+    "stripe": "^11.9.0",
+    "yup": "^0.32.11"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "cce77444-f304-40ed-97c9-a6e55e2d88d7"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
